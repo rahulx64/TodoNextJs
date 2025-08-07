@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  @apply text-gray-800;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 2rem auto;
+}
+input, button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
